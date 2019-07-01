@@ -1,0 +1,39 @@
+.days__container {
+  display         : flex;
+  flex-direction  : column;
+  align-items     : center;
+  justify-content : center;
+}
+
+.days__date {
+  margin-bottom : 5px;
+  font-size     : $font-small;
+  color         : $gray;
+}
+
+.days__face {
+  position      : relative;
+  background    : $gray;
+  border-radius : 50%;
+  height        : 80px;
+  width         : 80px;
+  font-size     : $font-huge;
+  text-align    : center;
+  line-height   : 1.4;
+
+  &.days__face-good {
+    background : $yellow;
+  }
+  
+  &.days__face-bad {
+    background : $red;
+  }
+}
+
+.days__message {
+  position  : absolute;
+  top       : 0;
+  right     : -5px;
+  font-size : $font-medium;
+  cursor    : pointer;
+}

@@ -1,0 +1,29 @@
+.msg__noRecords {
+	text-align  : center;
+	color       : $black;
+	font-weight : bold;
+	font-size   : $font-big;
+	transform   : translate(0, 100px);
+}
+
+.calendar__add--container {
+  display         : flex;
+  align-items     : center;
+  justify-content : center;
+  border-bottom   : 1px solid $black;
+  background      : $blue;
+  height          : 60px;
+}
+
+.calendar__add--button {
+  font-size   : $font-huge;
+  color       : $white;
+  text-shadow : 0 0 2px $black;
+}
+
+.calendar__days--container {
+  display               : grid;
+  grid-template-columns : 1fr 1fr 1fr;
+  grid-gap              : 20px;
+  padding               : 20px;
+}

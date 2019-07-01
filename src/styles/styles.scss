@@ -1,4 +1,5 @@
+@import './core/variables';
 @import '../App/App';
-@import '../components/Calendar/Calendar';
-@import '../components/Edit/Edit';
-@import '../components/Days/Days';
+@import '../components/Calendar/calendar';
+@import '../components/Edit/edit';
+@import '../components/Days/days';

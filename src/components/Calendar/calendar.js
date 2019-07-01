@@ -22,7 +22,7 @@ const Calendar = ({ calendarData }) => {
               />
           )}
         </ul>
-      { !calendarData.length && <p className="msg--noRecords">No tienes registros</p> }
+      { !calendarData.length && <p className="msg__noRecords">No tienes registros</p> }
     </section>
   );
 }

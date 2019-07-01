@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import  { Route, Switch } from 'react-router-dom';
 import Calendar from '../components/Calendar/calendar';
 import Edit from '../components/Edit/edit';
+import './_app.scss';
 
 
 class App extends Component {
@@ -93,7 +94,6 @@ class App extends Component {
 
     return (
       <div className="app">
-
         <Switch>
         <Route exact path='/' render={ () =>
           <Calendar
